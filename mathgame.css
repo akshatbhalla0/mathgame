@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imgmath/Screenshot\ 2026-06-21\ at\ 12.00.26\ PM.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+header{
+    color: white;
+    text-align: center;
+    padding: 100px 10px;
+    font-family: cursive;
+    font-size: xx-large;
+    text-shadow: 
+        -1px -1px 0 black,
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
+}
+
+.sec{
+    position: absolute;
+    top: 15px;          
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    background: white;
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.box{
+    width: 75%;
+    min-height: 500px;
+    margin: 5px auto;
+    padding: 180px 40px 40px;
+    border: 2px solid rgba(255,255,255,0.7);
+    background: rgba(0,0,0,0.35);
+    backdrop-filter: blur(3px);
+    position: relative;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
+
+.box h2{
+    color: white;
+    font-size: 45px;
+    font-family: cursive;
+}
+
+.op{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.op .but{
+    position: relative;
+    padding: 15px ;
+    font-size: 24px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.but{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+.play{
+    text-align: center;
+}
+
+.mid{
+    font-size: 44px;
+    background-color: white;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 30px;
+    border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 70px;
+    box-shadow: 0 0 25px rgba(0,0,0,0.5);
+}
